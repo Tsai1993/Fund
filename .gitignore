@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# R
+*.Rout
+
+# fuck mac
+.DS_Store
+.Rproj.user
