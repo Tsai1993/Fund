@@ -18,5 +18,5 @@ for i in range(1,5673):
 table2 = table.iloc[:,0:7]
 
 date = datetime.datetime.now()
-name = '-'.join([str(date.year), str(date.month), str(date.day)]) + '-cnki-approval-project' + '.csv'
+name = 'cnki-approval-project-' + '-'.join([str(date.year), str(date.month), str(date.day)]) + '.csv'
 table2.to_csv(name, index=False)
